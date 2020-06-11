@@ -82,7 +82,7 @@ blockquote
 ul
 { margin: 2px 0px 18px 16px;
   padding: 0px;}
-
+ 
 ul li
 { list-style-type: square;
   margin: 0px 0px 6px 0px; 
@@ -171,12 +171,18 @@ ul#menu li a
 ul#menu li.selected a
 { height: 20px;
   padding: 7px 15px 4px 15px;}
+  
+  ul#menu li.selected a:hover
+{ height: 20px;
+  padding: 7px 15px 4px 15px;
+  border: solid #FC9C04 1px;}
 
-ul#menu li.selected
+
+ul#menu li.selecteds
 { margin: 7px 0 0 0;}
 
 ul#menu li.selected a, ul#menu li.selected a:hover
-{ color: #FC9C04;}
+{ color: rgb(255, 159, 4);}
 
 ul#menu li a:hover
 { color: #FC9C04;}
